@@ -2,7 +2,7 @@ const getRandom = () => {
     const min = Math.ceil(1)
     const max = Math.floor(10)
     let number = Math.random() * (max - min) + min;
-
+    
     return number
 }
 
@@ -27,7 +27,7 @@ let userNumber = prompt("Tente advinhar um numero de 1 a 10: ")
 
 
 verifyNumber(randomNumber, userNumber)
-    
+
 
 
 
